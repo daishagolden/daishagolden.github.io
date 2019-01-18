@@ -1,0 +1,246 @@
+.background-image{
+    position: relative;
+    text-align: center;
+    max-height: 700px;
+    overflow: hidden;
+}
+.header{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-40%);
+    color: goldenrod;
+}
+
+.header-border img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -5%;  
+    border: 0;
+    color: grey
+}
+.header-border ul li i{
+    color: #404040;
+}
+.header ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header li{
+    display: inline;
+    font-size: 50px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.header-border{
+    border: 2px solid grey;
+}
+
+.mywork-bar{
+    background-color: silver;
+    color: white;
+}
+
+.top-bar{
+    text-align: center;
+}
+.top-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar li{
+    display: inline;
+    font-size: 24px;
+    padding-right: 15px;  
+}
+
+.about-me{
+    background-color: #404040;
+    color: white;
+}
+
+.button-about h3{
+    font-size: 18px;
+}
+
+.button-about a{
+    text-decoration: none;
+    background-color: silver;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;  
+    padding-bottom: 4px;
+}
+
+.button-about a:hover{
+    text-decoration: none;
+    background-color:#666666 ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;  
+}
+
+.project-background{
+    background-color: #999999 ;
+    color: gold;
+}
+
+.javascript h2{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 66px 21px whitesmoke;
+}
+
+.html h2{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 66px 21px whitesmoke;
+}
+.project-button h2{
+    font-weight: bolder;
+}
+.project-button a{
+    text-decoration: none;
+    background-color: #cccccc;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;  
+}
+
+.project-button a:hover{
+    text-decoration: none;
+    background-color: orange;
+    color: yellowgreen;
+    border-radius: 5px;
+    padding: 10px 20px;  
+}
+
+.project-pic{
+    background-color:#e6e6e6;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.picture-size{
+    padding: 0;
+}
+
+.bottom-bar{
+    position: relative;
+    max-height: 380px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bottom-bar:before{
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000 rgba(0, 0, 0, .50);
+}
+
+.contact-section{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-40%);
+    color: gold;
+    text-align: left;
+    
+}
+ul,li,a{
+    list-style-type: none;
+}
+.lowest-bar{
+    background-color: #f7f7f7 ;
+}
+
+.lowest-line ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lowest-line li{
+    display: inline;
+    padding-right: 15px;
+    font-size: 24px;
+}
+
+.lowest-line a{
+    color: grey;
+}
+a{
+    color: gray;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1,h2,h3,h4,p{color: red;
+        
+        word-break: keep-all;
+        word-break: normal;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+    .project-button a{
+        
+        word-break: keep-all;
+        word-break: normal;
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+        /* padding-top: 20px; */
+}
+}
+@media only screen and (max-width: 600px) {
+    img{
+      
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
+        padding-top: 20px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1,h2,h3,h4,p{color: green;
+        
+        word-break: keep-all
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h1,h2,h3,h4,p{color: blue;
+    word-break: keep-all}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1,h2,h3,h4,p{color: pink;
+    word-break: keep-all}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h1,h2,h3,h4,p{color: goldenrod;
+    word-break: keep-all}
+}
