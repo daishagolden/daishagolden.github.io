@@ -96,13 +96,13 @@
 .javascript h2{
     font-size: 40px;
     text-align: center;
-    text-shadow: 66px 21px whitesmoke;
+    text-shadow: 2px -1px whitesmoke;
 }
 
 .html h2{
     font-size: 40px;
     text-align: center;
-    text-shadow: 66px 21px whitesmoke;
+    text-shadow: 2px -1px whitesmoke;
 }
 .project-button h2{
     font-weight: bolder;
